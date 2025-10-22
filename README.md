@@ -32,6 +32,8 @@ Al ejecutar el programa y girar el encoder:
 
 -Antihorario ➜ el contador disminuye.
 
+![Mi imagen](img.png)
+
 ## Conclusión
 
 Este proyecto demuestra cómo leer y procesar las señales de un encoder rotatorio utilizando interrupciones externas en Arduino, logrando una detección precisa del sentido de giro y el número de pasos.

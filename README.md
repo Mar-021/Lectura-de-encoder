@@ -48,6 +48,12 @@ Gracias a su simplicidad y eficiencia, este código puede servir como base para:
 
 En conclusión, se validó correctamente el funcionamiento del encoder, mostrando una lectura confiable, direccional y en tiempo real.
 
+## Equipo
+
+Mariel Alcocer 
+
+Luis Contreras
+
 
 
 

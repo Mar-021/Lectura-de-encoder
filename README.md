@@ -51,30 +51,3 @@ En conclusión, se validó correctamente el funcionamiento del encoder, mostrand
 
 
 
-•	El resultado se imprime en consola con -`sp.pprint()`
-   -NumPy: para cálculos numéricos.
-   
-   -Sympy: para cálculos simbólicos.
-   
-•	Se organizaron los programas en módulos separados:
-
-- `forward_kinematics_dh.py`: implementa el cálculo numérico de matrices DH.
-- `forward_kinematics_dh_symbolic.py`: implementa el cálculo simbólico de matrices DH.
-- `forward_kinematics_dh_class.py`: integra ambas funcionalidades en una clase reutilizable.
-
-
-### 2.Definición de parámetros Denavit-Hartenberg (DH)
-• Para cada robot se elaboró la tabla DH en el formato estándar [θ_i,d_i,a_i,α_i].
-
-•Los parámetros fueron obtenidos del libro Control de robots manipuladores de Fernando Reyes Cortés (págs. 226–237).
-
-•Estos parámetros fueron implementados en archivos independientes:
-
-	RR.py → robot planar de dos grados de libertad (RR).
-   
-	RRR.py → robot antropomórfico de tres grados de libertad (RRR).
-   
-	RRP.py → robot SCARA con configuración RRP.
-
-
-

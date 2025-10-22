@@ -20,6 +20,18 @@ Permitir al usuario medir el movimiento rotacional (posición incremental y dire
 
 • Se mantiene un contador `contador` que aumenta o disminuye según la dirección de rotación.
 
+## Resultados
+
+Al ejecutar el programa y girar el encoder:
+
+• El monitor serial muestra en tiempo real el valor del contador y el sentido de giro.
+
+• Cada paso del encoder incrementa o decrementa el contador según la dirección:
+
+-Horario ➜ el contador aumenta.
+
+-Antihorario ➜ el contador disminuye.
+
 ## Conclusión
 
 Este proyecto demuestra cómo leer y procesar las señales de un encoder rotatorio utilizando interrupciones externas en Arduino, logrando una detección precisa del sentido de giro y el número de pasos.

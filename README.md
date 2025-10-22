@@ -26,11 +26,11 @@ Este proyecto demuestra cómo leer y procesar las señales de un encoder rotator
 
 Gracias a su simplicidad y eficiencia, este código puede servir como base para:
 
-• Control de motores con realimentación (control de posición o velocidad).
+- Control de motores con realimentación (control de posición o velocidad).
 
-• Medición angular o de desplazamiento.
+- Medición angular o de desplazamiento.
 
-• Interfaces rotatorias (como perillas o selectores digitales).
+- Interfaces rotatorias (como perillas o selectores digitales).
 
 En conclusión, se validó correctamente el funcionamiento del encoder, mostrando una lectura confiable, direccional y en tiempo real.
 

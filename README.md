@@ -20,6 +20,20 @@ Permitir al usuario medir el movimiento rotacional (posición incremental y dire
 
 • Se mantiene un contador `contador` que aumenta o disminuye según la dirección de rotación.
 
+## Conclusión
+
+Este proyecto demuestra cómo leer y procesar las señales de un encoder rotatorio utilizando interrupciones externas en Arduino, logrando una detección precisa del sentido de giro y el número de pasos.
+
+Gracias a su simplicidad y eficiencia, este código puede servir como base para:
+
+• Control de motores con realimentación (control de posición o velocidad).
+
+• Medición angular o de desplazamiento.
+
+• Interfaces rotatorias (como perillas o selectores digitales).
+
+En conclusión, se validó correctamente el funcionamiento del encoder, mostrando una lectura confiable, direccional y en tiempo real.
+
 
 
 
